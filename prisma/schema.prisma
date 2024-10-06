@@ -16,6 +16,7 @@ model Productos {
   descripcion String
   precio      Float
   imagen      String
+  destacado   Boolean  @default(false)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 }
